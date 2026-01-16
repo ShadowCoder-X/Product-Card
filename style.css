@@ -6,22 +6,87 @@
 
 .container {
   border: 1px solid red;
-  max-width: 1200px;
+  max-width: 1000px;
+  max-height: 2000px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 50px 50px;
+  background-color: rgb(243, 220, 158);
 }
 
-.center-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.center {
+  border: 1px solid blue;
+  max-width: 900px;
+  max-height: 1200px;
+  margin: 0 auto;
 }
 
 .left-side {
-  height: 100vh;
-  width: ;
+  background-image: url("images/image-product-desktop.jpg");
+  background: fixed;
+}
+.img1 {
+  max-height: 200px;
+  max-width: 255px;
+  position: ;
 }
 
-.img1 {
-  height: 50vh;
-  width: 50vw;
+.right-side {
+  display: flex;
+  flex: 1.5;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
 }
+.text {
+  font-size: medium;
+  line-height: 2rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+/*
+.container {
+  display: flex;
+  height: 100vh;
+}
+.left-side {
+  flex: 1;
+  background-image: url("bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo {
+  text-align: center;
+}
+
+logo img {
+  width: 80px;
+}
+
+photo-credit {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+right-side {
+  flex: 1.5;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+h4 {
+  margin-bottom: 1rem;
+}
+*/
