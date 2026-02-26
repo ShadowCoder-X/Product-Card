@@ -6,11 +6,11 @@
 
 .container {
   border: 1px solid red;
-  max-width: 1000px;
+  max-width: 1200px;
   max-height: 2000px;
   margin: 0 auto;
   padding: 50px 50px;
-  background-color: rgb(243, 220, 158);
+  background-color: inherent[];
 }
 
 .center {
@@ -18,16 +18,22 @@
   max-width: 900px;
   max-height: 1200px;
   margin: 0 auto;
+  display: flex;
+  gap: 1rem;
 }
 
-.left-side {
+.card-image {
   background-image: url("images/image-product-desktop.jpg");
-  background: fixed;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  border-radius: 0.7rem;
 }
-.img1 {
+
+.card-image {
   max-height: 200px;
   max-width: 255px;
-  position: ;
+  position: position;
 }
 
 .right-side {
@@ -39,54 +45,51 @@
 }
 .text {
   font-size: medium;
+  margin-bottom: 2rem;
   line-height: 2rem;
 }
 
+h4 {
+  font-family: "Monserrat", sans-serif;
+  letter-spacing: 0.3rem;
+  color: gray;
+}
+h1 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 p {
   font-family: "Montserrat", sans-serif;
+  color: gray;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-bottom: 1.5rem;
 }
-/*
-.container {
-  display: flex;
-  height: 100vh;
-}
-.left-side {
-  flex: 1;
-  background-image: url("bg-image.jpg");
-  background-size: cover;
-  background-position: center;
+
+.price {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1000;
+}
+
+.btn {
+  display: flex;
+  border-style: none;
+  border-radius: 0.7rem;
+  letter-spacing: 2px;
+  padding: 1rem 5rem;
+  background-color: rgb(2, 46, 2);
+  font-size: 1rem;
   color: white;
 }
 
-.logo {
-  text-align: center;
+@media (max-width: 768px) {
 }
-
-logo img {
-  width: 80px;
-}
-
-photo-credit {
-  font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-right-side {
-  flex: 1.5;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-h4 {
-  margin-bottom: 1rem;
-}
-*/
